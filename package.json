@@ -23,5 +23,9 @@
     "eslint-config-next": "15.0.0-rc.0",
     "eslint-plugin-react-compiler": "^0.0.0-experimental-c8b3f72-20240517",
     "typescript": "^5"
+  },
+  "overrides": {
+    "@types/react": "npm:types-react@rc",
+    "@types/react-dom": "npm:types-react-dom@rc"
   }
 }
